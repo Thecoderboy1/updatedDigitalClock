@@ -1,7 +1,6 @@
 .container{
     transform: rotate(90deg);
-    width: 1000px;
-    height: 100vh;
+   
     box-shadow: none;
     font-size: 1.4rem;
 }
