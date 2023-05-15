@@ -1,0 +1,29 @@
+.container{
+    transform: rotate(90deg);
+    width: 1000px;
+    height: 100vh;
+    box-shadow: none;
+    font-size: 1.4rem;
+}
+main{
+   background-color: black;
+}
+@media (max-width:197px) and (min-width: 162px) {
+    .container{
+        /* background-color: blue; */
+        transform: rotate(0deg);
+        font-size: 5px;
+    }
+    .container h1{
+        font-size: 3.3rem;
+    }
+    .container span{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:1280px) and (min-width: 768px){
+     .container{
+        transform: rotate(0deg);
+        font-size: 1.9rem;
+     }
+}
